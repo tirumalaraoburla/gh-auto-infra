@@ -9,12 +9,11 @@ This site includes the slides and labs for the Automate Infrastructure with GitH
 
 ### Day 1   
 Lab 1: [Get familiar with Git](labs/git)   
-Lab 2: [Intro to Terraform](http://www.katacoda.com/courses/terraform/deploy-nginx)   
-Lab 3: [Intro to Ansible](labs/ansible/)   
+Lab 2: [Intro to Terraform](tf-first-instance)   
+Lab 3: [Intro to Ansible](labs/ansible-setup/)   
 
 ### Day 2   
-Lab 4: [Provision Infrastructure with Terraform](labs/tf-vm/)   
-Lab 5: [Basic Jenkins Pipeline](https://www.katacoda.com/oliverveits/scenarios/jenkins-pipelines-hello-world)   
-Lab 6: [Terraform: Deploy Jenkins Server](labs/tf-jenkins-vm/)   
-Lab 7: [Fully Automated CICD Pipeline](labs/cicd-jenkins-pipeline/)   
+Lab 4: [Provision Infrastructure with Terraform](labs/tf-multi-resource/)   
+Lab 5: [Ansible Playbook Error Handling](labs/ansible-error-handling)   
+Lab 6: [GitHub Actions Pipeline](labs/gh-actions)   
 
