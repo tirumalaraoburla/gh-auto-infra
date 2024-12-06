@@ -9,7 +9,7 @@ This site includes the slides and labs for the Automate Infrastructure with GitH
 
 ### Day 1   
 Lab 1: [Get familiar with Git](labs/git)   
-Lab 2: [Intro to Terraform](tf-first-instance)   
+Lab 2: [Intro to Terraform](labs/tf-first-instance)   
 Lab 3: [Intro to Ansible](labs/ansible-setup/)   
 
 ### Day 2   
