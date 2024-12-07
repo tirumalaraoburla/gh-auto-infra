@@ -118,20 +118,23 @@ Terraform downloads the `aws` provider and installs it in a hidden subdirectory 
 
 Confirm the plugin was downloaded: 
 ```sh
-sudo yum install -y tree 
+choco install -y tree 
 tree .terraform/
 ```
 
 You should see output like: 
 ```
 .terraform/
-└── providers
-    └── registry.terraform.io
-        └── hashicorp
-            └── aws
-                └── 3.34.0
-                    └── linux_amd64
-                        └── terraform-provider-aws_v5.34.0_x5
+`-- providers
+    `-- registry.terraform.io
+        `-- hashicorp
+            `-- aws
+                `-- 5.80.0
+                    `-- windows_amd64
+                        |-- LICENSE.txt
+                        `-- terraform-provider-aws_v5.80.0_x5.exe
+
+6 directories, 2 files
 ```
 
 As you can see above Terraform download the aws provider from the official Hashicorp registry. 
@@ -173,6 +176,7 @@ Destroy the infrastructure you created
 ```sh
 terraform destroy -auto-approve
 ```
+**Note:** You can also use `-auto-approve` with `terraform apply`
 
 Remove the `.terraform` directory to free up disk space
 
