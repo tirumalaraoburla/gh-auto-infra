@@ -255,58 +255,31 @@ Here’s a step-by-step guide to installing Git on a Windows computer:
 1. Trigger a workflow from VS Code by navigating to the workflow file in the Explorer and selecting **Run Workflow** from the Actions menu.
 
 ---
+## Download and Install the AWS CLI
+
+### Step 1: Download the AWS CLI Installation file
+1. Go to [AWS CLI](https://awscli.amazonaws.com/AWSCLIV2-2.0.30.msi)
+
+### Step 2: Run the AWS CLI Install
+1. Run AWSCLIV2-2.0.30.msi
+2. accepts all defaults
 
 ## Create an AWS Access Key
 
 ### Step 1: Log In to the AWS Management Console
-1. Go to the [AWS Management Console](https://aws.amazon.com/console/).
+1. Go to the [AWS Management Console](https://d-91672d0af2.awsapps.com/start).
 2. Log in with your **AWS account credentials**.
 
 ---
+### Step 2: Copy the Access Key ID and Secret Access Key
+1. Scroll down to Option 3
+2. copy the Access Key ID
+3. Run aws configure (below)
+4. paste the copied Access Key ID
+5. copy the Secret Access Key from the console
+6. paste the copied Secret Access Key into aws configure
 
-### Step 2: Navigate to the IAM Console
-1. From the AWS Management Console, search for **IAM** in the search bar at the top and select **IAM** from the results.
-2. In the IAM console, navigate to the **Users** section in the left sidebar.
-
----
-
-### Step 3: Select a User
-1. If the user for whom you need to create access keys exists:
-   - Click on the username in the list.
-2. If you need to create a new user:
-   - Click **Add users**.
-   - Enter a username.
-   - Under **Access type**, select **Programmatic access**.
-   - Assign permissions by adding the user to a group, attaching policies directly, or copying permissions from an existing user. (The most common choice is adding to a group with appropriate policies, like `AdministratorAccess`.)
-   - Follow the steps to finish user creation.
-
----
-
-### Step 4: Create an Access Key
-1. On the user’s **Summary** page, click on the **Security credentials** tab.
-2. Scroll down to the **Access keys** section.
-3. Click **Create access key**.
-4. Select the purpose of the access key:
-   - **Application running outside AWS**: For external applications or local CLI use.
-   - **Command Line Interface (CLI)**: Recommended for Terraform or AWS CLI use.
-5. Click **Next**.
-
----
-
-### Step 5: Configure Key Policy (Optional)
-1. If prompted, configure a **key usage policy** based on the access level you want this key to have.
-2. Click **Create access key**.
-
----
-
-### Step 6: Download the Access Key
-1. AWS will generate the access key ID and secret access key.
-2. **Download the .csv file** to securely save the key details.
-   - Note: The secret access key will not be shown again after this point. Ensure you download or securely store it.
-
----
-
-### Step 7: Test Your Access Key
+### Step 3: Test Your Access Key
 1. Open your terminal and configure the AWS CLI:
    ```bash
    aws configure
