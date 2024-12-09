@@ -25,26 +25,9 @@ Remember to save your session.
 
 ## Log into each node
 
-Confirm you can connect to each Ansible VM assigned to you below using Putty.
+Confirm you can connect to each Ansible VM. 
 
 The username for SSH is `ubuntu` 
-
-| Student Number 	| Control server 	| Managed Node1   	| Managed Node2  	| Win VM |
-|----------------	|----------------	|-----------------	|----------------	|----------------	|
-| Student1 | 54.183.175.39 | 13.56.20.32 | 54.183.183.239 | PTACCESS181 |
-| Student2 | 3.101.91.236 | 54.177.178.35 | 3.101.66.251 | PTACCESS182 |
-| Student3 | 13.56.58.187 | 13.57.14.31 | 54.183.179.155 | PTACCESS183 |
-| Student4 | 184.72.25.43 | 54.215.185.118 | 54.219.214.138 | PTACCESS184 |
-| Student5 | 54.177.66.108 | 54.177.221.4 | 13.56.232.236 | PTACCESS185 |
-| Student6 | 52.53.193.38 | 54.193.110.127 | 54.176.126.16 | PTACCESS186 |
-| Student7 | 54.193.115.108 | 54.215.243.185 | 13.56.194.1 | PTACCESS187 |
-| Student8 | 54.241.48.114 | 18.144.73.36 | 18.144.11.60 | PTACCESS188 |
-| Student9 | 54.176.72.215 | 18.144.60.89 | 54.215.246.55 | PTACCESS189 |
-| Student10 | 54.151.74.154 | 3.101.101.68 | 18.144.52.92 | PTACCESS190 |
-| Student11 | 54.219.125.75 | 54.219.198.154 | 3.101.129.242 | PTACCESS191 |
-| Student12 | 3.101.79.44 | 52.53.222.116 | 54.176.59.77 | PTACCESS192 |
-| Student13 | 54.153.107.45 | 184.72.8.99 | 52.53.182.177 | PTACCESS193 |
-
 
 
 ## Install Ansible on all the nodes
