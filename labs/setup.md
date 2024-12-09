@@ -2,7 +2,7 @@
 
 ### Launch VS Code in Administrator Mode to Install software in a Terminal window
 
-### **Step 1: Run VS Code as Administrator
+### Step 1: Run VS Code as Administrator
 1. Close any open instances of Visual Studio Code.
 2. Search for "Visual Studio Code" in the Start menu.
 3. Right-click on it and select **Run as Administrator**.
