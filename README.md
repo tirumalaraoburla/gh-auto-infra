@@ -7,6 +7,8 @@ This site includes the slides and labs for the Automate Infrastructure with GitH
 
 ## Labs   
 
+[Setup Windows VM](labs/setup.md)
+
 ### Day 1   
 Lab 1: [Get familiar with Git](labs/git)   
 Lab 2: [Intro to Terraform](labs/tf-first-instance)   
