@@ -15,7 +15,7 @@ Install Terraform for Windows. To install the latest version run the following:
 TER_VER=$(curl -s https://api.github.com/repos/hashicorp/terraform/releases/latest | grep tag_name | cut -d: -f2 | tr -d \"\, | awk '{$1=$1};1' | sed 's/^v//')
 
 # Download the Terraform ZIP file for Windows
-wget https://releases.hashicorp.com/terraform/${TER_VER}/terraform_${TER_VER}_windows_amd64.zip -O terraform.zip
+wget --no-check-certificate https://releases.hashicorp.com/terraform/${TER_VER}/terraform_${TER_VER}_windows_amd64.zip -O terraform.zip
 
 # Extract the ZIP file
 powershell -Command "Expand-Archive -Path terraform.zip -DestinationPath ."
