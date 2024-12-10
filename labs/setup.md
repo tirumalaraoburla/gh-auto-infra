@@ -48,7 +48,7 @@
 
 ---
 
-### **Step 6: Test Chocolatey with a Package Installation (Optional)**
+### **Step 6: Test Chocolatey with a Package Installation**
 1. Try installing a test package to confirm everything is working:
    ```powershell
    choco install git -y
@@ -63,12 +63,13 @@ Always remember to run VS Code in **Administrator mode** whenever you need to us
 ## Install wget
 
 ``` bash
-choco install wget
+choco install wget -y
 ```
 ## Install Terraform
 #### Get binaries ####
-
+#### Switch to a Bash terminal
 #### Get the latest Terraform version from GitHub API
+
 ``` bash
 TER_VER=$(curl -s https://api.github.com/repos/hashicorp/terraform/releases/latest | grep tag_name | cut -d: -f2 | tr -d \"\, | awk '{$1=$1};1' | sed 's/^v//')
 ```
@@ -88,23 +89,6 @@ rm terraform.zip
 ``` bash
 mv terraform.exe /c/Windows/System32
 ```
-
-## Install git for windows
----
-### **Step 1: Use Chocolaty to installl git**
-
-```bash
-choco install git -y
-```
-
-### **Step 2: Verify Git Installation**
-1. Open **Git Bash** or the Command Prompt.
-2. Type the following command and press Enter:
-   ```
-   git --version
-   ```
-   - This will display the installed Git version, confirming the installation was successful.
-
 # Install GitHub actions for VSCode
 
 ### **Step 1: Open Visual Studio Code**
