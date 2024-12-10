@@ -60,32 +60,36 @@
 ### **Important Note:**
 Always remember to run VS Code in **Administrator mode** whenever you need to use Chocolatey for installing or managing software that requires system-level changes.
 
-# Install wget
+## Install wget
 
 ``` bash
 choco install wget
 ```
-# Install Terraform
+## Install Terraform
 #### Get binaries ####
+
+#### Get the latest Terraform version from GitHub API
 ``` bash
-wget https://releases.hashicorp.com/terraform/1.10.0/terraform_1.10.0_windows_amd64.zip -O terraform.zip
+TER_VER=$(curl -s https://api.github.com/repos/hashicorp/terraform/releases/latest | grep tag_name | cut -d: -f2 | tr -d \"\, | awk '{$1=$1};1' | sed 's/^v//')
 ```
-#### unzip ####
+#### Download the Terraform ZIP file for Windows
+``` bash
+wget https://releases.hashicorp.com/terraform/${TER_VER}/terraform_${TER_VER}_windows_amd64.zip -O terraform.zip```
+```
+#### unzip
 ``` bash
 powershell -Command "Expand-Archive -Path terraform.zip -DestinationPath ."
 ```
-#### delete the zip ####
+#### delete the zip
 ``` bash
 del terraform.zip
 ```
-#### Move the exe to the System32 folder which is already in the path ####
+#### Move the exe to the System32 folder which is already in the path
 ``` bash
 mv terraform.exe /c/Windows/System32
 ```
 
-# Install git for windows
-Here’s a step-by-step guide to installing Git on a Windows computer:
-
+## Install git for windows
 ---
 
 ### **Step 1: Download the Git Installer**
@@ -271,13 +275,11 @@ Here’s a step-by-step guide to installing Git on a Windows computer:
 2. Log in with your **AWS account credentials**.
 
 ---
+
 ### Step 2: Copy the Access Key ID and Secret Access Key
-1. Scroll down to Option 3
-2. copy the Access Key ID
-3. Run aws configure (below)
-4. paste the copied Access Key ID
-5. copy the Secret Access Key from the console
-6. paste the copied Secret Access Key into aws configure
+1. Scroll down to Option 1
+2. Click the copy icon on the right
+3. Paste into a BASH terminal in VS Code
 
 ### Step 3: Test Your Access Key
 1. Open your terminal and configure the AWS CLI:
