@@ -74,7 +74,7 @@ TER_VER=$(curl -s https://api.github.com/repos/hashicorp/terraform/releases/late
 ```
 #### Download the Terraform ZIP file for Windows
 ``` bash
-wget https://releases.hashicorp.com/terraform/${TER_VER}/terraform_${TER_VER}_windows_amd64.zip -O terraform.zip
+wget --no-check-certificate https://releases.hashicorp.com/terraform/${TER_VER}/terraform_${TER_VER}_windows_amd64.zip -O terraform.zip
 ```
 #### unzip
 ``` bash
