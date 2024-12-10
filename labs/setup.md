@@ -94,7 +94,7 @@ mv terraform.exe /c/Windows/System32
 ### **Step 1: Use Chocolaty to installl git**
 
 ```bash
-choco install -y git
+choco install git -y
 ```
 
 ### **Step 2: Verify Git Installation**
