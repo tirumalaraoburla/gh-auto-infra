@@ -91,88 +91,13 @@ mv terraform.exe /c/Windows/System32
 
 ## Install git for windows
 ---
+### **Step 1: Use Chocolaty to installl git**
 
-### **Step 1: Download the Git Installer**
-1. Open your browser and go to the official Git website: [https://git-scm.com/](https://git-scm.com/).
-2. Click on the **Download for Windows** button, which will automatically download the installer for your version of Windows.
+```bash
+choco install -y git
+```
 
----
-
-### **Step 2: Run the Git Installer**
-1. Locate the downloaded installer file (e.g., `Git-<version>-64-bit.exe`) in your downloads folder.
-2. Double-click the file to start the installation process.
-
----
-
-### **Step 3: Accept the License Agreement**
-1. In the setup wizard, read the license agreement and click **Next** to accept it.
-
----
-
-### **Step 4: Choose Installation Path**
-1. The default installation path is `C:\Program Files\Git`. You can change it if desired, but the default is recommended.
-2. Click **Next** to proceed.
-
----
-
-### **Step 5: Select Components**
-1. Choose the components you want to install. The default options are fine for most users.
-   - Ensure **"Git Bash Here"** and **"Git GUI Here"** are selected for ease of use.
-2. Click **Next**.
-
----
-
-### **Step 6: Select the Default Editor**
-1. Select your default editor for Git. Common choices include:
-   - **Vim** (default)
-   - **Visual Studio Code** (recommended for developers familiar with VS Code)
-2. After making your selection, click **Next**.
-
----
-
-### **Step 7: Adjust PATH Environment**
-1. Choose how Git will be added to your system’s PATH. 
-   - **Recommended Option:** *Git from the command line and also from 3rd-party software* (adds Git commands to your command-line tools).
-2. Click **Next**.
-
----
-
-### **Step 8: Choose HTTPS Transport Backend**
-1. Select the HTTPS transport backend. The default **"Use the OpenSSL library"** is recommended.
-2. Click **Next**.
-
----
-
-### **Step 9: Configure Line Ending Conversions**
-1. Choose how Git should handle line endings:
-   - **Recommended Option:** *Checkout Windows-style, commit Unix-style line endings.*
-2. Click **Next**.
-
----
-
-### **Step 10: Configure Terminal Emulator**
-1. Select the terminal emulator to use with Git Bash:
-   - **Recommended Option:** *Use MinTTY (default terminal of MSYS2).*
-2. Click **Next**.
-
----
-
-### **Step 11: Configure Additional Options**
-1. Configure the additional options based on your needs:
-   - Enable **Git Credential Manager** to save authentication credentials securely.
-   - Enable **File System Caching** for better performance.
-2. Click **Next**.
-
----
-
-### **Step 12: Complete Installation**
-1. Click **Install** to begin the installation.
-2. Wait for the installation to complete. This may take a few minutes.
-3. Once finished, click **Finish**.
-
----
-
-### **Step 13: Verify Git Installation**
+### **Step 2: Verify Git Installation**
 1. Open **Git Bash** or the Command Prompt.
 2. Type the following command and press Enter:
    ```
