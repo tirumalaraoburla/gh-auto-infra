@@ -1,6 +1,6 @@
 # Lab Setup 
 On the provided Windows VM, download the GitHub repository. 
-Go to the [repo](https://github.com/jruels/adv-ansible) in a browser, and in the top right corner, click the green "Code" button, then click "Download as zip". 
+Go to the [repo](https://github.com/jruels/gh-auto-infra.git) in a browser, and in the top right corner, click the green "Code" button, then click "Download as zip". 
 Once the download is done, extract the zip file and put it somewhere you can easily access it.
 
 
