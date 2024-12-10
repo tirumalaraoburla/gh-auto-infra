@@ -67,7 +67,8 @@ choco install wget -y
 ```
 ## Install Terraform
 #### Get binaries ####
-#### Switch to a Bash terminal
+#### Close and Reopen Visual Studio Code
+#### Open a Bash terminal
 #### Get the latest Terraform version from GitHub API
 
 ``` bash
