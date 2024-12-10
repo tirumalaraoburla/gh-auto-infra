@@ -82,7 +82,7 @@ powershell -Command "Expand-Archive -Path terraform.zip -DestinationPath ."
 ```
 #### delete the zip
 ``` bash
-del terraform.zip
+rm terraform.zip
 ```
 #### Move the exe to the System32 folder which is already in the path
 ``` bash
