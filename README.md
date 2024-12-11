@@ -6,6 +6,7 @@ This site includes the slides and labs for the Automate Infrastructure with GitH
 ## Course Content   
 
 ## Labs   
+[VM Access Details](VM_Access.md)
 
 [Setup Windows VM](labs/setup.md)
 
