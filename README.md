@@ -7,8 +7,11 @@ This site includes the slides and labs for the Automate Infrastructure with GitH
 
 ## Labs   
 [VM Access Details](VM_Access.md)
-[AWS Credentials](/)
-[Ansible VMs](/)
+
+[AWS Credentials](AWSCredentials.md)
+
+[Ansible VMs](AnsibleVMs.md)
+
 [Setup Windows VM](labs/setup.md)
 
 ### Day 1   
