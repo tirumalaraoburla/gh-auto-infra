@@ -1,9 +1,9 @@
 | Name                     | Username    | Virtual Machine Password | Virtual Machine Portal                  |
 |--------------------------|-------------|--------------------------|----------------------------------------|
 | TirumalaRao Burla        | WNS2022-43  | TEKwns2022!              | [https://html.inspiredvlabs.com/](https://html.inspiredvlabs.com/)        |
-| Chris Lee                | WNS2022-44  |                          |                                        |
-| David Pietraszewski      | WNS2022-45  |                          |                                        |
-| Sean McDaniel            | WNS2022-46  |                          |                                        |
+| Chris Lee                | WNS2022-44  |TEKwns2022!               |                                        |
+| David Pietraszewski      | WNS2022-45  | TEKwns2022!              |                                        |
+| Sean McDaniel            | WNS2022-46  | TEKwns2022!              |                                        |
 | Dax Breeding             | WNS2022-47  |                          |                                        |
 | Todd Williamson          | WNS2022-48  |                          |                                        |
 | Bradley Belsaas          | WNS2022-49  |                          |                                        |
