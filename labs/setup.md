@@ -60,11 +60,17 @@
 ### **Important Note:**
 Always remember to run VS Code in **Administrator mode** whenever you need to use Chocolatey for installing or managing software that requires system-level changes.
 
-## Install wget
+### **Step 7: Install wget**
 
 ``` bash
 choco install wget -y
 ```
+### **Step 8: Install AWSCLI**
+
+``` bash
+choco install awscli -y
+```
+
 ## Install Terraform
 #### Get binaries ####
 #### Close and Reopen Visual Studio Code
